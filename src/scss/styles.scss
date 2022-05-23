@@ -9,11 +9,34 @@ body {
     width: 100%;
 }
 
-h1 {
-    text-align: center;
-    color: green;
-    font-size: 3rem;
-    padding: 1rem;
-    margin: 0 auto;
-    width: 75%;
+header {
+    height: 8%;
+    background-color: black;
+}
+
+nav {
+    // border: 1px solid blue;
+    height: 10%;
+    background-color: rgb(72, 120, 192);
+    
+    ul {
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        list-style-type: none;
+        
+        li {
+            color: white;
+            // border: 1px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+main {
+    height: 82%;
+    border: 1px solid green;
 }

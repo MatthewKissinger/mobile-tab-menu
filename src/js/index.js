@@ -1,13 +1,5 @@
-// Main js file
+// TODO LIST
 
-const name = 'James';
+// setup on click for each tab module to be displayed in main
 
-const person = {
-  first: `${name}`,
-};
-
-const sayHelloLinting = (fName) => {
-  console.log(`Hello linting, ${fName}`);
-};
-
-sayHelloLinting(person.first);
+// on selection change the color of the tab/highlight text/underline
