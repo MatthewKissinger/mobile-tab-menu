@@ -1,7 +1,7 @@
 {
   "name": "mobile-tab-menu",
   "version": "1.0.0",
-  "description": "Project starter template using parcel bundler",
+  "description": "mobile tab menu for The Odin Project",
   "source": "src/index.html",
   "scripts": {
     "start": "npx parcel src/index.html -p 3000 --open",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MatthewKissinger/parcel-template.git"
+    "url": "git+https://github.com/MatthewKissinger/mobile-tab-menu.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MatthewKissinger/parcel-template/issues"
+    "url": "https://github.com/MatthewKissinger/mobile-tab-menu/#issues"
   },
-  "homepage": "https://github.com/MatthewKissinger/parcel-template#readme",
+  "homepage": "https://github.com/MatthewKissinger/mobile-tab-menu#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.5.0",
     "eslint": "^8.16.0",
