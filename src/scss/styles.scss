@@ -28,15 +28,32 @@ nav {
         
         li {
             color: white;
-            // border: 1px solid red;
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+
+        li.focused {
+            background-color: white;
+            color: rgb(72, 120, 192);
+            border-bottom: 2px solid rgb(72, 120, 192);
+
+            .icon {
+                fill: rgb(72, 120, 192);
+            }
+        }
+
+        svg {
+            height: 36px;
+            width: 36px;
+        }
+
+        .icon {
+            fill: white;
         }
     }
 }
 
 main {
     height: 82%;
-    border: 1px solid green;
 }
